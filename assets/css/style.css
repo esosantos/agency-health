@@ -115,9 +115,42 @@ section{
     color: var(--yellow-color);
 }
 
-/*--------   ---------*/
+/*-------- about  ---------*/
+.about h1{
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
+}
+.about p{
+    max-width: 600px;
+    margin: 24px auto;
+    font-size: 22px;
+    text-align: justify;
+}
+.about .input-group {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: var(--black2-color);
+    color: var(--white-color);
+    padding: 12px;
+    border-radius: 0px 100px 100px 0px;
+}
+.about .form-control{
 
+    border: transparent;
+}
+.about .form-control:focus{
+    box-shadow: none;
+}
+.about .bg-image{
+    
+    min-height: 500px;
+    background-image: url(../image/img-cover01.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /*--------   ---------*/
 
 
