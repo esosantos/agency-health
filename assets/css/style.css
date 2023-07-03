@@ -2,15 +2,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
-/*--------   ---------*/
+/*--------  custom property ---------*/
+:root {
+
+    /*typography*/
+    --font-poppins: 'Poppins', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+
+    /*colors*/
+    --black-color: #121212;
+    --black2-color: #242424;
+    --yellow-color: #e7b837;
+    --yellow2-color: #dbb959;
+    --white-color:#ffffff;
+    --gray-color: #c0c0c0;
+    --border-color: rgba(255, 255, 255, 0.1);
+
+    /*border-radius*/
+    --border-radius: 32px;
+
+    /*transition*/
+    --transition-default: all 0.4s ease-out;
+
+}
+
+/*--------  reset ---------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
-/*--------   ---------*/
-
-
-/*--------   ---------*/
-
-
+body{
+    background-color: var(--black-color);
+    color: var(--gray-color);
+    font-family: var(--font-roboto);
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    color: var(--white-color);
+}
+a{
+    text-decoration: none;
+    transition: var(--transition-default);
+}
+a:hover{
+    color: var(--yellow-color);
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /*--------   ---------*/
 
 
