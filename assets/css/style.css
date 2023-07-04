@@ -273,7 +273,22 @@ section{
 .team-member .icon-box:hover{
     color: var(--white-color);
 }
-/*--------   ---------*/
+
+
+/*-------- clients  ---------*/
+.clients{
+    background-color: var(--black2-color);
+    align-items: center;
+    justify-content: center;
+}
+.carousel{
+    max-width: 700px;
+    background-color: var(--white-color);
+}
+.carousel img{
+    width: 200px;
+    border-radius: 100px;
+}
 
 /*--------   ---------*/
 
