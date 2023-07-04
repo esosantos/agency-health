@@ -37,7 +37,7 @@
 body{
     background-color: var(--black-color);
     color: var(--gray-color);
-    font-family: var(--font-roboto);
+    font-family: var(--font-poppins);
     line-height: 1.7;
 }
 h1,h2,h3,h4,h5,h6{
@@ -50,6 +50,9 @@ a{
 }
 a:hover{
     color: var(--yellow-color);
+}
+li{
+    list-style: none;
 }
 img{
     width: 100%;
@@ -64,8 +67,6 @@ section{
     padding: 12px 24px;
     border-radius: 50px ;
     border: 1px solid var(--yellow-color);
-   
-   
 }
 .btn-brand{
     background-color: var(--yellow-color);
@@ -82,6 +83,14 @@ section{
 }
 .btn-brand i{
     font-size: 24px;
+}
+.title-h5{
+    background-color: var(--yellow-color);
+    padding: 8px 16px;
+    border-radius: 100px;
+    color: var(--white-color);
+    display: inline-block;
+    margin-bottom: 40px;
 }
 
 /*--------  navbar  ---------*/
@@ -156,14 +165,7 @@ section{
 .services .title{
     margin-bottom: 40px;
 }
-.services h5{
-    background-color: var(--yellow-color);
-    padding: 8px 16px;
-    border-radius: 100px;
-    color: var(--white-color);
-    display: inline-block;
-    margin-bottom: 40px;
-}
+
 .services h1{
     max-width: 600px;
     margin: auto;
@@ -190,7 +192,64 @@ section{
     color: var(--yellow-color);
 }
 
+/*-------- features  ---------*/
+.features{
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+}
+.features .feature-list{
+    padding: 0;
+    margin-top: 40px;
+}
+.feature-list .icon-box{
+    width: 54px;
+    height: 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: var(--white-color);
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.feature-list .features-item{
+    display: flex;
+    align-items: center;
+}
+.features  p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.feature-list span{
+    font-size: 17px;
+}
+/*--------   ---------*/
+
+/*--------   ---------*/
+
+/*--------   ---------*/
+
+/*--------   ---------*/
+
+/*--------   ---------*/
+
 /*--------   ---------*/
 
 
 /*--------   ---------*/
+
+
+/*--------   ---------*/
+
+
+/*--------   ---------*/
+
+/*--------   ---------*/
+
+
+/*--------  responsive  ---------*/
+@media (max-width: 575.98px) { 
+    .box-img{
+        order: 1;
+    }
+ }
