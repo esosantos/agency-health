@@ -306,8 +306,11 @@ section{
     padding-bottom: 20px;
    
 }
-/*--------   ---------*/
-
+/*-------- blog  ---------*/
+.blog-post{
+   padding: 30px;
+    background-color: var(--black2-color);
+}
 /*--------   ---------*/
 
 /*--------   ---------*/
