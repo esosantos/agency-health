@@ -311,8 +311,36 @@ section{
    padding: 30px;
     background-color: var(--black2-color);
 }
-/*--------   ---------*/
 
+
+/*-------- footer  ---------*/
+footer .navbar-brand{
+    font-size: 26px;
+    font-weight: 700;
+}
+footer .navbar-brand i{
+    color: var(--yellow-color);
+    font-size: 34px;
+}
+footer .navbar-brand span{
+    color: var(--yellow-color);
+    letter-spacing: -3px;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--black2-color);
+   
+
+}
+footer h5 {
+    color: var(--yellow2-color);
+    font-size: 22px;
+}li{
+    color: var(--white-color);
+    padding-top: 18px;
+    font-size: 18px;
+}
 /*--------   ---------*/
 
 /*--------   ---------*/
